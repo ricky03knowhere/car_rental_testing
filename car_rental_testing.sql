@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 08, 2024 at 04:55 PM
+-- Generation Time: Nov 08, 2024 at 05:33 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -67,22 +67,21 @@ CREATE TABLE `cars` (
 --
 
 INSERT INTO `cars` (`id`, `brand`, `model`, `plate_number`, `daily_rate`, `is_available`, `created_at`, `updated_at`) VALUES
-(1, 'Toyota', 'Avanza', 'D09338ED', 300000.00, 0, '2024-11-07 23:50:04', '2024-11-08 00:18:45'),
-(17, 'Toyota', 'Camry', 'ABC1234', 500000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(18, 'Honda', 'Civic', 'DEF5678', 450000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(19, 'Ford', 'Focus', 'GHI9101', 400000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(20, 'Chevrolet', 'Malibu', 'JKL2345', 550000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(21, 'Nissan', 'Sentra', 'MNO6789', 420000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(22, 'BMW', '3 Series', 'PQR1111', 700000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(23, 'Audi', 'A4', 'STU2222', 750000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(24, 'Mercedes', 'C Class', 'VWX3333', 800000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(25, 'Hyundai', 'Elantra', 'YZA4444', 480000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(26, 'Kia', 'Optima', 'BCD5555', 450000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(27, 'Volkswagen', 'Jetta', 'EFG6666', 500000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(28, 'Subaru', 'Impreza', 'HIJ7777', 470000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(29, 'Mazda', 'Mazda3', 'KLM8888', 460000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(30, 'Tesla', 'Model 3', 'NOP9999', 1000000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36'),
-(31, 'Jeep', 'Wrangler', 'QRS0000', 900000.00, 1, '2024-11-08 15:27:36', '2024-11-08 15:27:36');
+(1, 'Toyota', 'Camry', 'ABC1234', 500000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(2, 'Honda', 'Civic', 'DEF5678', 450000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(3, 'Ford', 'Focus', 'GHI9101', 400000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(4, 'Chevrolet', 'Malibu', 'JKL2345', 550000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(5, 'Nissan', 'Sentra', 'MNO6789', 420000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(6, 'BMW', '3 Series', 'PQR1111', 700000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(7, 'Audi', 'A4', 'STU2222', 750000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(8, 'Mercedes', 'C Class', 'VWX3333', 800000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(9, 'Hyundai', 'Elantra', 'YZA4444', 480000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(10, 'Kia', 'Optima', 'BCD5555', 45000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(11, 'Volkswagen', 'Jetta', 'EFG6666', 500000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(12, 'Subaru', 'Impreza', 'HIJ7777', 470000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(13, 'Mazda', 'Mazda3', 'KLM8888', 460000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(14, 'Tesla', 'Model 3', 'NOP9999', 1000000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45'),
+(15, 'Jeep', 'Wrangler', 'QRS0000', 900000.00, 1, '2024-11-08 16:20:45', '2024-11-08 16:20:45');
 
 -- --------------------------------------------------------
 
@@ -196,7 +195,7 @@ CREATE TABLE `rentals` (
 
 INSERT INTO `rentals` (`id`, `user_id`, `car_id`, `start_date`, `end_date`, `return_date`, `total_cost`, `status`, `created_at`, `updated_at`) VALUES
 (1, 2, 1, '2024-11-08', '2024-11-18', NULL, 3000000.00, 'active', '2024-11-08 00:18:25', '2024-11-08 00:18:25'),
-(37, 1, 1, '2024-01-01', '2024-01-05', '2024-01-05', 2000000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
+(37, 2, 1, '2024-01-01', '2024-01-05', '2024-01-05', 2000000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (38, 2, 2, '2024-01-02', '2024-01-06', '2024-01-06', 1800000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (39, 3, 3, '2024-01-03', '2024-01-07', '2024-01-07', 1600000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (40, 4, 4, '2024-01-04', '2024-01-08', NULL, 220.00, 'active', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
@@ -206,7 +205,7 @@ INSERT INTO `rentals` (`id`, `user_id`, `car_id`, `start_date`, `end_date`, `ret
 (44, 8, 8, '2024-01-08', '2024-01-12', '2024-01-12', 320000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (45, 9, 9, '2024-01-09', '2024-01-13', '2024-01-13', 1440000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (46, 10, 10, '2024-01-10', '2024-01-14', '2024-01-14', 1350000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
-(47, 1, 11, '2024-01-11', '2024-01-15', NULL, 2000000.00, 'active', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
+(47, 3, 11, '2024-01-11', '2024-01-15', NULL, 2000000.00, 'active', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (48, 2, 12, '2024-01-12', '2024-01-16', NULL, 1880000.00, 'active', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (49, 3, 13, '2024-01-13', '2024-01-17', '2024-01-17', 1380000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (50, 4, 14, '2024-01-14', '2024-01-18', '2024-01-18', 4000000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
@@ -215,8 +214,7 @@ INSERT INTO `rentals` (`id`, `user_id`, `car_id`, `start_date`, `end_date`, `ret
 (53, 7, 2, '2024-01-17', '2024-01-21', NULL, 1800000.00, 'active', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (54, 8, 3, '2024-01-18', '2024-01-22', '2024-01-22', 160000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (55, 9, 4, '2024-01-19', '2024-01-23', '2024-01-23', 2200000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
-(56, 10, 5, '2024-01-20', '2024-01-24', NULL, 1600008.00, 'active', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
-(57, 1, 6, '2024-01-21', '2024-01-25', NULL, 280000.00, 'active', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
+(57, 4, 6, '2024-01-21', '2024-01-25', NULL, 280000.00, 'active', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (58, 2, 7, '2024-01-22', '2024-01-26', '2024-01-26', 3000000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (59, 3, 8, '2024-01-23', '2024-01-27', '2024-01-27', 3200000.00, 'completed', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
 (60, 4, 9, '2024-01-24', '2024-01-28', NULL, 14400000.00, 'active', '2024-11-08 15:36:41', '2024-11-08 15:36:41'),
@@ -252,7 +250,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('YSGyDyDODdr0WsjQrVPERloGUBzV7QFR6qhlxd9c', 2, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiZG43VjVhSjd2NU1PaEVXU3NwZTVaVEJoV1RxOEtWRHpDUlVSdzdpRiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9yZW50YWxzIjt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6Mjt9', 1731081173);
+('eayF2LnH8XNFjWXDYV3hDqhdR0wYn0WaPme4BFlw', 2, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiMHU3ZzR4YVEyMThOZUpua0xjbHBiTWhKcU5ydUZEYWtjWDFnOTEzRCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjI7fQ==', 1731083571);
 
 -- --------------------------------------------------------
 
@@ -278,7 +276,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `address`, `phone`, `license_number`, `remember_token`, `created_at`, `updated_at`) VALUES
-(2, 'Mikey Ackerman', 'mikey000@toman.co', '$2y$12$TBGZs1cLR/8G2qZl8ha3Bu1AVArCg3/bN2m390rufdHQnVPChz8Ie', 'Tokyo Manji', '0823949248299', '239586293858', 'VUogtN9Eb5t7tWggS8BNtwG2MsjJ0VlXL5xHCnffMvyI4zyzWzNgEKTraVnR', '2024-11-07 23:59:38', '2024-11-07 23:59:38'),
+(2, 'Mikey Ackerman', 'mikey000@toman.co', '$2y$12$TBGZs1cLR/8G2qZl8ha3Bu1AVArCg3/bN2m390rufdHQnVPChz8Ie', 'Tokyo Manji', '0823949248299', '239586293858', 'CWlx1KEzfdrpGUThqQv56hC67FfEsSe3ogeoQ0xPcbjZ2yc1tHcjkzfNXnTs', '2024-11-07 23:59:38', '2024-11-07 23:59:38'),
 (3, 'Alice Johnson', 'alice@example.com', 'password123', '123 Main St', '1234567890', 'LIC123456', NULL, '2024-11-08 15:29:01', '2024-11-08 15:29:01'),
 (4, 'Bob Smith', 'bob@example.com', 'password123', '456 Elm St', '0987654321', 'LIC234567', NULL, '2024-11-08 15:29:01', '2024-11-08 15:29:01'),
 (5, 'Charlie Brown', 'charlie@example.com', 'password123', '789 Maple Ave', '2345678901', 'LIC345678', NULL, '2024-11-08 15:29:01', '2024-11-08 15:29:01'),
@@ -376,7 +374,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `cars`
 --
 ALTER TABLE `cars`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`

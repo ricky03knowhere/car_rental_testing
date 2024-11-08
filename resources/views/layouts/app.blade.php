@@ -93,7 +93,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('rentals.*') ? 'active' : '' }}" 
-                               href="{{ route('rentals.index') }}">Sewa Mobil</a>
+                               href="{{ route('rentals.index') }}">Daftar Rental Mobil</a>
                         </li>
                     @endauth
                 </ul>
